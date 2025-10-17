@@ -5,6 +5,14 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* global.css */
+@font-face {
+    font-family: 'Futura Custom'; 
+    src: url('/assets/fonts/Futura-Medium.woff2') format('woff2'); /*modificar*/
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body {
   @apply bg-white dark:bg-gray-950;
@@ -13,3 +21,4 @@ body {
     color-scheme: dark;
   }
 }
+

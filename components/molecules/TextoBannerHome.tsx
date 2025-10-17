@@ -6,7 +6,7 @@ const {Title,Paragraph} = Typography;
 const TextoBannerHome = () => {
     return (
         <div style={{textAlign:"center"}}>
-            <Title level={1} style={{fontWeight:"bold",color:"white"}}>
+            <Title level={1} style={{fontWeight:"bold",color:"white",textShadow: '0px 2px 8px rgba(0, 0, 0, 0.25)'}}>
                 Alfredo Álvarez
             </Title>
             <Title level={3} style={{fontWeight:"bold",color:"#b99cd1"}}>
