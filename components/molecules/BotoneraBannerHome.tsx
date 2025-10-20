@@ -1,11 +1,15 @@
 import React from "react";
 import { Avatar, Button, Flex } from "antd";
 
+const avatarStyle: React.CSSProperties ={
+    width: "50%",
+    
+}
+
 const BotoneraBannerHome = () => {
     return (
-        <Flex justify="space-between">
-            <Avatar src={"assets/img/profile.jpg"} size="large" style={{}}/>
-            <span style={{}}>➡️</span>
+        <Flex justify="center">
+            <img src={"assets/img/flecha-morada.png"} width={"30px"}></img>
             <Button color="purple" variant="solid" size="large">Ir a Proyectos</Button>
         </Flex>
     )

@@ -1,5 +1,5 @@
 import { Flex } from "antd";
-import BotoneraBannerHome from "components/molecules/BotoneraBannerHome";
+import AvatarBanner from "components/molecules/AvatarBanner";
 import TextoBannerHome from "components/molecules/TextoBannerHome";
 import React from "react";
 
@@ -11,16 +11,31 @@ const containerStyle: React.CSSProperties = {
     borderRadius: "8px",
 
     boxShadow: "0 8px 16px rgba(0, 0, 0, 0.4)",
-    padding: "16px"
+    padding: "16px",
+
+    maxWidth: "50%",
+    marginTop: "15px"
     
 };
 
+
 const BannerHome = () => {
     return (
-        <Flex vertical style={containerStyle}>
-            <TextoBannerHome />
-            <BotoneraBannerHome/>
-        </Flex>
+        <>
+            <Flex>
+                
+                <Flex style={containerStyle}>
+                    <TextoBannerHome />
+                </Flex>
+                <Flex justify="center" align="center" style={{flex:1}}>
+                    <AvatarBanner />
+                </Flex>
+
+            </Flex>
+
+            
+            
+        </>
     )
 }
 
