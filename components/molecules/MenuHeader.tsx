@@ -10,7 +10,7 @@ const navLinks = [
 export const MenuHeader: React.FC = () => {
     return (
         //ocultar menú en pantallas de móviles
-        <ul className="hidden md:flex items-center gap-x-8">
+        <ul className="md:flex items-center gap-x-8">
             {navLinks.map((link) => (
                 <li key={link.href}>
                     <NavLinkItem href={link.href}>{link.label}</NavLinkItem>

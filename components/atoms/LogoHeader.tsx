@@ -6,7 +6,7 @@ export const LogoHeader: React.FC = () => {
     return (
         <NavLink
             to="/"
-            className="text-white/60 border-dashed border-white/30 rounded-full p-2
+            className="!text-white/60 border-dashed border-white/30 rounded-full p-2
                         hover:text-white hover:border-white transition-all duration-300"
             aria-label="Volver al inicio"
         >

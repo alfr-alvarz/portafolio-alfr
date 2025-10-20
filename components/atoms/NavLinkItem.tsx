@@ -14,7 +14,7 @@ export const NavLinkItem: React.FC<NavLinkItemProps> = ({ href,children}) => {
             `text-sm pb-1.5 transition-colors duration-300 ${
           isActive
             ? '!text-white font-semibold border-b-2 border-purple-400' // Activo: Blanco brillante
-            : '!text-gray-300 hover:text-white' // Inactivo: Gris claro (¡Esta es la clave!)
+            : '!text-gray-300 hover:text-white' // Inactivo: Gris claro 
             }`
         }
     >

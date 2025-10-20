@@ -12,7 +12,7 @@ const HomePortafolio = () => {
             display: 'flex',
             justifyContent: 'center', // Centra horizontalmente
             alignItems: 'center',     // Centra verticalmente
-            padding: '0 5%'           // Mantenemos un poco de padding lateral
+            padding: '0 5%'           // Algo de padding lateral
         }}>
             <header className="w-full flex justify-center p-4 fixed top-4 left-0 z-50">
                 <Header/>
