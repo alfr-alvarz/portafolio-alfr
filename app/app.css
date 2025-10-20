@@ -1,17 +1,12 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito:ital@0;1&display=swap');
+
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Arimo","Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* global.css */
-@font-face {
-    font-family: 'Futura Custom'; 
-    src: url('/assets/fonts/Futura-Medium.woff2') format('woff2'); /*modificar*/
-    font-weight: normal;
-    font-style: normal;
-}
 
 html,
 body {
@@ -21,4 +16,3 @@ body {
     color-scheme: dark;
   }
 }
-
