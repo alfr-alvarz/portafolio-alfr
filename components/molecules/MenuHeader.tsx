@@ -4,7 +4,7 @@ import { NavLinkItem } from "components/atoms/NavLinkItem";
 const navLinks = [
     { href: '/', label: 'Home'},
     { href: '/experiencia', label: 'Historia y Experiencia'},
-    { href: '/mis-proyectos', label: 'Mis Proyectos'}, 
+    { href: '/proyectos', label: 'Proyectos'}, 
 ];
 
 export const MenuHeader: React.FC = () => {
