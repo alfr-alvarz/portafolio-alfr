@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "antd";
-import TextoBannerHome from "components/molecules/TextoBannerHome";
 import BannerHome from "components/organisms/BannerHome";
+import { Header } from "components/organisms/Header";
 
 const HomePortafolio = () => {
     return (
@@ -14,7 +14,12 @@ const HomePortafolio = () => {
             alignItems: 'center',     // Centra verticalmente
             padding: '0 5%'           // Mantenemos un poco de padding lateral
         }}>
-            <BannerHome/>
+            <header className="w-full flex justify-center p-4 fixed top-4 left-0 z-50">
+                <Header/>
+            </header>
+            <main>
+                <BannerHome/>
+            </main>
         </Layout>
     );
 }
