@@ -5,13 +5,11 @@ import { ProjectItemCard } from 'components/molecules/ProjectItemCard';
 
 import { 
     FaDog,
-  FaDatabase,
-  FaCheckSquare,
   FaShoppingCart,  
   FaUserAlt
 } from 'react-icons/fa';
 
-const { Text, Paragraph } = Typography;
+const { Paragraph } = Typography;
 
 //Data de últimos proyectos
 

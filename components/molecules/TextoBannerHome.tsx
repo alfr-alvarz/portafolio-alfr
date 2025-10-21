@@ -13,8 +13,8 @@ const TextoBannerHome = () => {
                 Estudiante de Informática
             </Title>
             <Paragraph style={{ fontSize:"16px",maxWidth: "600px",margin:"1% 0px 0px",color:"white"}}>
-                Creando diversos proyectos de starter con gran cantidad de lógica detrás.
-                La confección de aplicaciones y sitios no se detiene.
+                Estudiante de Informática apasionado por el desarrollo y el aprendizaje.
+                Convierto ideas en aplicaciones funcionales, centrándome en la armonía entre colores y diseños.
             </Paragraph>
         </div>
     )

@@ -9,7 +9,7 @@ export const WebFooter: React.FC = () => {
     return (
         <Footer 
             className="w-full max-w-4xl px-5 py-3
-            bg-[#1a0b24]/90 backdrop-blur-md rounded-full border border-white/10 shadow-lg mb-15 mx-auto" 
+            bg-[#1a0b24]/90 backdrop-blur-md rounded-full border border-white/10 shadow-lg mb-15 mt-4 mx-auto" 
             style={{
                 backgroundColor: 'transparent'
             }}

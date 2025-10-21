@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "antd";
 
 const avatarStyle: React.CSSProperties = {
-    width: '30%', 
+    width: '50%', 
     
     height: 'auto', 
     

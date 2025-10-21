@@ -1,41 +1,28 @@
-import { Flex } from "antd";
+import { Row, Col, Flex } from "antd"; // Importa Row y Col
 import AvatarBanner from "components/molecules/AvatarBanner";
 import TextoBannerHome from "components/molecules/TextoBannerHome";
+import { GlassCard } from "components/molecules/GlassCard"; 
 import React from "react";
-
-const containerStyle: React.CSSProperties = {
-    gap: "50px",
-
-    backgroundColor: '#1f090936',
-    border: "1px solid #000000ff",
-    borderRadius: "8px",
-
-    boxShadow: "0 8px 16px rgba(0, 0, 0, 0.4)",
-    padding: "16px",
-
-    maxWidth: "50%",
-    marginTop: "15px"
-    
-};
 
 
 const BannerHome = () => {
     return (
-        <>
-            <Flex>
-                
-                <Flex style={containerStyle}>
+        
+        <Row gutter={[24, 24]} align="middle">
+
+            <Col xs={24} md={16}>
+                <GlassCard>
                     <TextoBannerHome />
-                </Flex>
-                <Flex justify="center" align="center" style={{flex:1}}>
+                </GlassCard>
+            </Col>
+
+            <Col xs={24} md={8}>
+                <Flex justify="center" align="center" style={{ height: '100%' }}>
                     <AvatarBanner />
                 </Flex>
+            </Col>
 
-            </Flex>
-
-            
-            
-        </>
+        </Row>
     )
 }
 
