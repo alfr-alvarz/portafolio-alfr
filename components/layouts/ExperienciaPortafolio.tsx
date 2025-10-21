@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Layout } from "antd";
 import { Header } from "components/organisms/Header";
+import { WebFooter } from "components/organisms/WebFooter";
 
 const ExperienciaPortafolio = () => {
     return (
@@ -17,6 +18,7 @@ const ExperienciaPortafolio = () => {
                     <p>Hola</p>
                 </Card>
             </main>
+            <WebFooter/>
         </Layout>
     );
 }
