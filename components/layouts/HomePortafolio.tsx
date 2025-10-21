@@ -3,6 +3,7 @@ import { Card, Layout } from "antd";
 import BannerHome from "components/organisms/BannerHome";
 import { Header } from "components/organisms/Header";
 import { WebFooter } from "components/organisms/WebFooter";
+import { SkillsSection } from "components/organisms/SkillsSection";
 
 const HomePortafolio = () => {
     return (
@@ -16,7 +17,9 @@ const HomePortafolio = () => {
             </header>
             <main className="w-full max-w-screen px-[5%] pt-32">
                 <BannerHome/>
-                
+                <div className="w-full max-w-4xl mx-auto mt-16">
+                    <SkillsSection />
+                </div>
             </main>
             <WebFooter/>
         </Layout>
